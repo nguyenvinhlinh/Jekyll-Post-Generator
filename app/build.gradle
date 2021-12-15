@@ -40,7 +40,7 @@ tasks.named('test') {
 
 jar {
     archiveBaseName = 'jekyll-post-generator'
-    archiveVersion =  '1.0.0'
+    archiveVersion =  '2.0.0'
     manifest {
         attributes(
                'Main-Class': 'JekyllPostGenerator.App'
