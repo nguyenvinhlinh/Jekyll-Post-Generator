@@ -43,7 +43,7 @@ public class App {
         writer.println("categories: ");
         writer.println("seo_description: ");
         writer.println("seo_image: ");
-        writer.println("comment: true");
+        writer.println("comments: true");
         writer.println("---");
         writer.close();
         System.out.println("File named \"" + postFileName + "\" generated.");
