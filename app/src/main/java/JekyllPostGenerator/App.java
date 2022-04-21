@@ -39,6 +39,8 @@ public class App {
         writer.println("layout: post");
         writer.println("title: \"" + postName + "\"");
         writer.println("date: " + dateFormat2.format(date));
+        writer.println("update: ");
+        writer.println("location: ");
         writer.println("tags: ");
         writer.println("categories: ");
         writer.println("seo_description: ");
